@@ -1,0 +1,159 @@
+<template>
+<article class="slds-card">
+    <div class="slds-card__header slds-grid">
+        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+            <div class="slds-media__figure">
+                <span class="slds-icon_container" title="task">
+                    <lightning-icon icon-name="utility:task" alternative-text="Task" title="Task"></lightning-icon>
+                    <span class="slds-assistive-text">Tasks</span>
+                </span>
+            </div>
+            <div class="slds-media__body">
+                <h2 class="slds-card__header-title">
+                    <a href="#" class="slds-card__header-link slds-truncate" title="Accounts">
+                        <span>Your Tasks</span>
+                    </a>
+                </h2>
+            </div>
+        </header>
+    </div>
+    <div class="slds-card__body slds-card__body_inner">
+        <ul class="slds-timeline">
+                <li>
+                    <div class="slds-timeline__item_expandable slds-timeline__item_task">
+                        <span class="slds-assistive-text">task</span>
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <button class="slds-button slds-button_icon" title="Homeless Discharge Planning Training (0.5)"
+                                    aria-controls="task-item-base-69">
+                                    <svg class="slds-button__icon slds-timeline__details-action-icon" aria-hidden="true">
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Homeless Discharge Planning Training (0.5)</span>
+                                </button>
+                                <div class="slds-icon_container slds-icon-standard-task slds-timeline__icon" title="task">
+                                    <lightning-icon class="slds-icon" icon-name="standard:task2" alternative-text="Task Complete"
+                                        title="Task Complete">
+                                    </lightning-icon>
+                                </div>
+                            </div>
+                            <div class="slds-media__body">
+                                <h3 class="slds-m-horizontal_xx-small">
+                                    <a href="#">Homeless Discharge Planning Training (0.5)</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slds-timeline__item_expandable slds-timeline__item_event">
+                        <span class="slds-assistive-text">task</span>
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <button class="slds-button slds-button_icon" title="task"
+                                    aria-controls="email-item-base-71">
+                                    <svg class="slds-button__icon slds-timeline__details-action-icon" aria-hidden="true">
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Equal Access & Effective Communication 202210/31/22</span>
+                                </button>
+                                <div class="slds-icon_container slds-icon-standard-email slds-timeline__icon" title="Overdue task">
+                                    <lightning-icon class="slds-icon" icon-name="standard:first_non_empty"
+                                        alternative-text="Incomplete Task" title="Incomplete Task">
+                                    </lightning-icon>
+                
+                                </div>
+                            </div>
+                            <div class="slds-media__body">
+                                <h3 class="slds-m-horizontal_xx-small">
+                                    <a href="#">Equal Access & Effective Communication 202210/31/22</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slds-timeline__item_expandable slds-timeline__item_task">
+                        <span class="slds-assistive-text">task</span>
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <button class="slds-button slds-button_icon" title="Homeless Discharge Planning Training (0.5)"
+                                    aria-controls="task-item-base-69">
+                                    <svg class="slds-button__icon slds-timeline__details-action-icon" aria-hidden="true">
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Homeless Discharge Planning Training (0.5)</span>
+                                </button>
+                                <div class="slds-icon_container slds-icon-standard-task slds-timeline__icon" title="task">
+                                    <lightning-icon class="slds-icon" icon-name="standard:task2" alternative-text="Task Complete"
+                                        title="Task Complete">
+                                    </lightning-icon>
+                                </div>
+                            </div>
+                            <div class="slds-media__body">
+                                <h3 class="slds-m-horizontal_xx-small">
+                                    <a href="#">Homeless Discharge Planning Training (0.5)</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slds-timeline__item_expandable slds-timeline__item_event">
+                        <span class="slds-assistive-text">Incomplete task</span>
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <button class="slds-button slds-button_icon" title="task"
+                                    aria-controls="email-item-base-71">
+                                    <svg class="slds-button__icon slds-timeline__details-action-icon" aria-hidden="true">
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Providers Effectively Using Intepretive Services (0.5) (25 Min)</span>
+                                </button>
+                                <div class="slds-icon_container slds-icon-standard-email slds-timeline__icon" title="incomplete_task">
+                                    <lightning-icon class="slds-icon" icon-name="standard:first_non_empty"
+                                        alternative-text="Incomplete Task" title="Incomplete Task">
+                                    </lightning-icon>
+            
+                                </div>
+                            </div>
+                            <div class="slds-media__body">
+                                <h3 class="slds-m-horizontal_xx-small">
+                                    <a href="#">Providers Effectively Using Intepretive Services (0.5) (25 Min)</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slds-timeline__item_expandable slds-timeline__item_event">
+                        <span class="slds-assistive-text">Incomplete task</span>
+                        <div class="slds-media">
+                            <div class="slds-media__figure">
+                                <button class="slds-button slds-button_icon" title="task" aria-controls="email-item-base-71">
+                                    <svg class="slds-button__icon slds-timeline__details-action-icon" aria-hidden="true">
+                                        <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#switch"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Preventing Harassment 2022</span>
+                                </button>
+                                <div class="slds-icon_container slds-icon-standard-email slds-timeline__icon" title="incomplete_task">
+                                    <lightning-icon class="slds-icon" icon-name="standard:first_non_empty"
+                                        alternative-text="Incomplete Task" title="Incomplete Task">
+                                    </lightning-icon>
+                
+                                </div>
+                            </div>
+                            <div class="slds-media__body">
+                                <h3 class="slds-m-horizontal_xx-small">
+                                    <a href="#">Preventing Harassment 2022</a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+        </ul>
+    </div>
+</article>
+
+
+</template>
